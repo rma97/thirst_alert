@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <nav className="w-full bg-gray-800 shadow">
+      <nav className="s w-full bg-gray-800 shadow">
         <div className=" mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl ">
           <div>
             <div className="relative flex items-center justify-center py-2 md:block md:py-5">
