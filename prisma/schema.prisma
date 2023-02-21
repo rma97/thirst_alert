@@ -29,6 +29,7 @@ model Plant {
   wateredAt   DateTime?
   sunNeeded   Int
   waterNeeded Int
+  dennis      Boolean
   imageUrl    String?   @db.VarChar(2047)
   type        String?
   user        User      @relation(fields: [userId], references: [id])
