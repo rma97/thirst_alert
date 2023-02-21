@@ -17,6 +17,6 @@ jobs:
 
       - uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - run: flyctl deploy \
-          --build-secret DATABASE_URL=${{ secrets.DATABASE_URL }} \
+      - run: flyctl deploy
+          --build-secret DATABASE_URL=${{ secrets.DATABASE_URL }}
           --remote-only
