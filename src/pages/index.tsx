@@ -18,7 +18,7 @@ const Home: NextPage = (props) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="min-h-screen bg-gradient-to-b from-[#eefbf3] to-[#ffffff]">
+      <main className="min-h-screen bg-gradient-to-b from-[#eefbf3] to-[#136942]">
         <Navbar />
         <AuthShowcase />
       </main>
